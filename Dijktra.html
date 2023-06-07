@@ -31,8 +31,8 @@
 
     <h2 style="color:red; font-size: 28px;">2.3 Algoritmo de Dijktra’s</h2>
 
-    <h2>
-        <div align="justify"><font size="2">
+    <h2 style="font-size: 23px;">
+        <div align="justify">
             Supóngase que se está planteando un viaje en coche desde alguna ciudad hasta otra, por ejemplo, desde cdmx
             hasta puebla. Empleando un mapa de carretas se encontrarán diferentes maneras de llegar a una respuesta. En
             este caso se podria utilizar el algoritmo de Floyd, que está basado en la representacion matricial de un
@@ -68,13 +68,13 @@
             <br>
             <br>
 
-            <img src="/Img/2.png"/><br/>
+            <img src="Img/2.png"/><br/>
     </h2>
     </font> <br/> <br/>
 
 
-    <h2>
-        <div align="justify"><font size="2">
+    <h2 style="font-size: 23px;">
+        <div align="justify">
             A cada interacción, antes de hallar el nodo siguiente en proximidad, el vector de distancia actual contendrá
             la distancia más corta entre v1 y todos los nodos del grafo, siempre y cuando todos los nodos intermedios de
             todos los caminos se hayan seleccionando dentro de S. Observe que la distancia actual hasta uk desde v1
@@ -85,7 +85,7 @@
             actual de este ultimo nodo. Inicialmente, se hace Dist [v1] = 0, Dist [v2] = 3, Dist [v3] = 6 y Dist [vi] =
             INF para todos los demás nodos, y S = {vi}.
             <br>
-            <img src="/Img/3.png"/><br/>
+            <img src="Img/3.png"/><br/>
 
             En la primera interacción se selecciona el nodo siguiente en proximidad con respecto al nodo v1. El nodo más
             próximo a v1 es v2, y por tanto se pone v2 en S. A continuación se calcula la distancia más corta de todos
@@ -116,7 +116,7 @@
             si utilizan una matriz ponderada de adyacencias o bien un directorio de tablas de nodos con listas de
             adyacencia. Este asunto se examinará de nuevo en breve.
             <br>
-            <img src="/Img/4.png"/><br/>
+            <img src="Img/4.png"/><br/>
 
             A continuación se considera brevemente el análisis temporal en caso peor del algoritmo de Dijkstra. Puede
             ser necesario ejecutar el paso 5 para un máximo de n - 1 nodos, puesto que el nodo inicialmente seleccionado
@@ -138,7 +138,7 @@
             va desde el nodo u hasta el nodo i, hasta con registrar el nodo u como predecesor. Eventualmente, cuando el
             nodo final entre en S, se puede retroceder hasta el nodo especificado. Comienzo empleando la información
             relativa a los nodos predecesores.
-            <img src="/Img/5.png"/><br/>
+            <img src="Img/5.png"/><br/>
             Igualmente se podría considerar una serie de pasos para determinar la longitud de la trayectoria más corta
             entre
             dos vertices, esta serie de pasos se puede ver en la imagen anterior.

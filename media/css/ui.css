@@ -398,34 +398,59 @@ LEFT & RIGHT BARS
 #nav-right ul#files {
     position: relative;
     float: left;
+    width: 200px; /* ajusta el ancho según tus necesidades */
 }
 
 #nav-right ul#files h2 {
     background: url(img/ui_nr-files.png) no-repeat 15px center;
     border-top: 1px solid #666666;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 18px; /* ajusta el tamaño de fuente según tus necesidades */
 }
 
 #nav-right ul#files li {
     border-bottom: 1px solid #333333;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 16px; /* ajusta el tamaño de fuente según tus necesidades */
 }
 
 
 #nav-right ul#files2 {
     position: relative;
     float: left;
+    width: 200px; /* ajusta el ancho según tus necesidades */
 }
 
 #nav-right ul#files2 h2 {
     background: url(img/ui_nr-files.png) no-repeat 15px center;
     border-top: 1px solid #666666;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 18px; /* ajusta el tamaño de fuente según tus necesidades */
 }
 
 #nav-right ul#files2 li {
     border-bottom: 1px solid #333333;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 16px; /* ajusta el tamaño de fuente según tus necesidades */
+}
+
+#nav-right ul#files3 {
+    position: relative;
+    float: left;
+    width: 200px; /* ajusta el ancho según tus necesidades */
+}
+
+#nav-right ul#files3 h2 {
+    background: url(img/ui_nr-files.png) no-repeat 15px center;
+    border-top: 1px solid #666666;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 18px; /* ajusta el tamaño de fuente según tus necesidades */
+}
+
+#nav-right ul#files3 li {
+    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 16px; /* ajusta el tamaño de fuente según tus necesidades */
 }
 
 #nav-right ul#contact {
@@ -437,12 +462,13 @@ LEFT & RIGHT BARS
     background: url(img/ui_nr-contact.png) no-repeat 15px center;
     border-top: 1px solid #666666;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: 18px; /* ajusta el tamaño de fuente según tus necesidades */
 }
 
-#nav-right ul#contact h2 {
-    background: url(img/ui_nr-contact.png) no-repeat 15px center;
-    border-top: 1px solid #666666;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
+#nav-right ul#contact li {
+    border-bottom: 1px solid #333333;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 16px; /* ajusta el tamaño de fuente según tus necesidades */
 }
 
 div#theme {
